@@ -1,8 +1,30 @@
-title: Daniel's profile page
-description: Profile page
-google_analytics: 
-show_downloads: true
-theme: jekyll-theme-cayman
+# Site settings
+title: Daniel Delnaaij
+email: info@danieldelnaaij.nl
+url: https://danieldelnaaij.nl
+description: "Hi. I'm Daniel, a ruby developer."
 
-gems:
-  - jekyll-mentions
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: danieldelnaaij.nl
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/delneet
+  - title: facebook
+    url: https://facebook.com/danieldelnaaij
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/danieldelnaaij
+  - title: linkedin
+    url: http://linkedin.com/in/danieldelnaaij
+  - title: github
+    url: https://github.com/delneet
+
+# Build settings
+markdown: kramdown
+permalink: pretty
